@@ -28,7 +28,7 @@ quality:
 	python -m src.quality
 
 test:
-	pytest -v
+	python -m pytest -v
 
 app:
 	streamlit run app/dashboard.py
